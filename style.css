@@ -8,3 +8,15 @@ h1, h2, p {
     display: flex;
     justify-content: center;
 }
+
+.kom1 {
+    background-color: rgb(229, 3, 3);
+}
+
+.kom2 {
+    background-color: rgb(201, 223, 3);
+}
+
+.kom3 {
+    background-color: rgb(29, 3, 181);
+}
