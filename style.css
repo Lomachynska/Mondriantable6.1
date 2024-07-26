@@ -9,14 +9,19 @@ h1, h2, p {
     justify-content: center;
 }
 
+.container {
+    width: min(100% - 40px, 1340px); /* Ширина контейнера з максимальним обмеженням 1340px */
+    margin-inline: auto; /* Автоматичний відступ з обох боків для центрування */
+  }
+
 .kom1 {
-    background-color: rgb(229, 3, 3);
+    background-color: rgb(48, 47, 47);
 }
 
 .kom2 {
-    background-color: rgb(201, 223, 3);
+    background-color: gb(48, 47, 47);
 }
 
 .kom3 {
-    background-color: rgb(29, 3, 181);
+    background-color: gb(48, 47, 47);
 }
