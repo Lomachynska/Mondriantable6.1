@@ -9,19 +9,54 @@ h1, h2, p {
     justify-content: center;
 }
 
-.container {
-    width: min(100% - 40px, 1340px); /* Ширина контейнера з максимальним обмеженням 1340px */
-    margin-inline: auto; /* Автоматичний відступ з обох боків для центрування */
-  }
-
-.kom1 {
-    background-color: rgb(145, 6, 6);
+body {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
 }
 
-.kom2 {
-    background-color: gb(48, 47, 47);
+table {
+    border-collapse: collapse;
+    width: 600px;
+    height: 350px;
 }
 
-.kom3 {
-    background-color: gb(48, 47, 47);
+tr {
+    border: 2px solid black;
+
 }
+
+td {
+    border: 4px solid black;
+    padding: 0;
+    margin: 0;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.white {
+    background-color: white;
+}
+
+.black {
+    background-color: black;
+}
+
+.cell-1 { width: 100px; height: 100px; }
+.cell-2 { width: 100px; height: 100px; }
+.cell-3 { width: 100px; height: 100px; }
+.cell-4 { width: 100px; height: 100px; }
+.cell-5 { width: 100px; height: 100px; }
+.cell-6 { width: 100px; height: 100px; }
